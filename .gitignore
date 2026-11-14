@@ -1,0 +1,24 @@
+# Compiled executables
+*.exe
+*.o
+*.obj
+
+# Build directories
+build/
+cmake-build-*/
+
+# IDE and operating system files
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
+
+# Local account records and SQLite runtime database
+data/users.txt
+hospital.db-journal
+hospital.db-wal
+hospital.db-shm
+
+# Temporary files and logs
+*.log
+*.tmp
